@@ -1,0 +1,55 @@
+.photo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.commentBtn{
+    margin-top: 8px;
+    padding: 12px 24px;
+    background-color: #b7bec8;
+    color: #000;
+    border-radius: 5px;
+    letter-spacing: 0.7px;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+}
+.commentBtn:hover{
+    background-color: #00b7db;
+}
+
+.rateLabel {
+    margin-top: 15px;
+    font-weight: bold;   
+}
+.selectOpt{
+    width: 29pc;
+    height: 40px;
+    margin-top: 10px;
+}
+.nameLabel{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.nameField{
+    margin-top: 10px;
+    width: 29pc;
+    height: 40px;
+}
+.errorMsg{
+    color: red;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.commentLabel{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.textareaField{
+    margin-top: 10px;
+    width: 29pc;
+    height: 175px;
+}
+.submitBtn{
+    margin-top: 6px;
+}
